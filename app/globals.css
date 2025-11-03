@@ -1,0 +1,31 @@
+:root {
+  --brand-carousel-bg: #ffffff;
+  --brand-carousel-arrow-color: #333333;
+  --brand-carousel-arrow-bg: rgba(255, 255, 255, 0.9);
+  --brand-carousel-arrow-hover: #000000;
+  --brand-carousel-hover-overlay: rgba(0, 0, 0, 0.1);
+  --brand-carousel-border: #e5e7eb;
+  --brand-carousel-description-bg: rgba(0, 0, 0, 0.85);
+  --brand-carousel-description-text: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #f9fafb;
+}
